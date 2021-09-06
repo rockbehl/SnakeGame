@@ -1,8 +1,9 @@
 import javax.swing.*;
+import java.io.IOException;
 
 public class Frame extends JFrame {
 
-    Frame(){
+    Frame() throws IOException {
 
         add(new Panel());
         setTitle("Snake");
